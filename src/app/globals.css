@@ -2,3 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .erro404{
+        @apply bg-pink-700 font-extrabold h-full w-full fixed;
+
+        & h1{
+            @apply text-center m-5;
+        }
+
+        & img{
+            @apply mx-auto w-60;
+        }
+
+        & p{
+            @apply text-center mt-5;
+        }
+    }
+}
+

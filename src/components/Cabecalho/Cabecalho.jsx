@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Cabecalho() {
   return (
-    <header className='bg-slate-700 h-20 text-white '>
+    <header className='bg-black h-20 text-white '>
     <nav>
       <ul>
         <li><Link href="/">::.Home</Link></li>
