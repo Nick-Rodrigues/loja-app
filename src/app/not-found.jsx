@@ -2,17 +2,17 @@ import Image from "next/image";
 
 export default function notFound() {
   return (
-    <div>
-        <h1>OOPSS! 404</h1>
+    <div className="bg-red-500 font-extrabold h-full w-full fixed">
+        <h1 className="text-center m-5">OOPSS! 404</h1>
 
-            <Image
-                src="https://prints.ultracoloringpages.com/551ada1f48c923acddbbb135962eebb9.png"
-                alt="Camisa"
-                width={300}
-                height={300}
+            <Image className="mx-auto w-52"
+                src="https://http.cat/images/404.jpg"
+                alt="404"
+                width={500}
+                height={500}
             />
 
-        <p>Not Found!</p>
+        <p className="text-center mt-5">Not Found!</p>
     </div>
   )
 }
